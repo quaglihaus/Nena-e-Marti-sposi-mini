@@ -12,11 +12,10 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start  NODE_OPTIONS=--openssl-legacy-provider startnpm cache clean",
+    "start": "react-scripts start NODE_OPTIONS=--openssl-legacy-provider startnpm cache clean",
     "start:lambda": "netlify-lambda serve src/lambda",
     "build": "run-p build:**",
     "build:app": "react-scripts build",
-    "build:lambda": "netlify-lambda build src/lambda",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
