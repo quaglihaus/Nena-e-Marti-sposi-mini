@@ -47,7 +47,7 @@ class App extends Component {
       <div className="App">
         <FirstPage/>
         <PlacesPage/>
-        <SubmitPage/>
+        {/*<SubmitPage/>*/}
         <MoneyPage/>
         <LastPage/>
       </div>
